@@ -22,6 +22,8 @@
 # =============================================================== #
 #Basic Aliases
 alias ..='cd ..'
+alias ~='cd ~'
+alias rr='rm -R'
 
 #Simple server wherever you execute the alias
 alias server="python -m SimpleHTTPServer"
