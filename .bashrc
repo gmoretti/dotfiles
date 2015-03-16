@@ -23,6 +23,17 @@
 #Basic Aliases
 alias ..='cd ..'
 
+#Simple server wherever you execute the alias
+alias server="python -m SimpleHTTPServer"
+
+#Go to my projects dir
+alias p="cd ~/projects"
+
+#Sniff http traffic
+alias sniff="sudo ngrep -d 'wlan0' -t '^(GET|POST) ' 'tcp and port 80'"
+
+#Suspend to RAM
+alias afk="dbus-send --system --print-reply --dest="org.freedesktop.UPower" /org/freedesktop/UPower org.freedesktop.UPower.Suspend" 
 
 
 #-------------------------------------------------------------
@@ -70,3 +81,6 @@ extract () {
 		echo "'$1' is not a valid file"
 	fi
 }
+
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
