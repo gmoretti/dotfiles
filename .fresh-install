@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#Software
+apt-get install xbindkeys
