@@ -1,7 +1,7 @@
 # dotfiles
 
 Dotfiles for home/work.
-Execute fresh-install.sh o new PC's
+Execute fresh-install.sh on new PC's
 
 Contains:
   *BashRC
